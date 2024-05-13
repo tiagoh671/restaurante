@@ -1,0 +1,28 @@
+.button{
+  width: 100%;
+  padding: 10px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  flex: 1 1 150px;
+}
+
+.button img{
+  width: 20px;
+  height: auto;
+}
+
+.button p{
+  font-weight: bold;
+}
+
+.button:hover{
+  border-color: #daa520;
+  cursor: pointer;
+}
+
